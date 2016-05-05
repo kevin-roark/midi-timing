@@ -1,0 +1,26 @@
+{
+  "name": "midi-timing",
+  "version": "0.0.1",
+  "description": "utility to convert midi files to an array of notes with times and durations :)",
+  "main": "midi.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevin-roark/midi-timing.git"
+  },
+  "keywords": [
+    "midi",
+    "ms",
+    "seconds",
+    "milliseconds",
+    "timing"
+  ],
+  "author": "kevin roark jr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevin-roark/midi-timing/issues"
+  },
+  "homepage": "https://github.com/kevin-roark/midi-timing",
+  "dependencies": {
+    "midi-converter": "0.1.5"
+  }
+}
