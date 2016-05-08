@@ -29,6 +29,13 @@ module.exports = function(midiSong) {
       }
     });
 
+    if (tempos.length === 0) {
+      tempos.push({
+        microsecondsPerBeat: 500000,
+        time: 0
+      });
+    }
+
     return tempos;
   }
 

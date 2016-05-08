@@ -1,6 +1,6 @@
 {
   "name": "midi-timing",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "utility to convert midi files to an array of notes with times and durations :)",
   "main": "midi.js",
   "repository": {

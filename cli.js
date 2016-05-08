@@ -1,6 +1,6 @@
 
 var fs = require('fs');
-var midiTiming = require('./midi-timing');
+var midiTiming = require('./midi');
 
 var args = process.argv.slice(2);
 if (args.length < 1) {
