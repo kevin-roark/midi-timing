@@ -12,7 +12,5 @@ var midiFile = args[0];
 var outFile = args.length > 1 ? args[1] : 'timing.json';
 
 var midiData = fs.readFileSync(midiFile, 'binary');
-
 var timing = midiTiming(midiData);
-
 fs.writeFileSync(outFile, JSON.stringify(timing));
